@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -30,4 +31,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nasa-photo{
+  max-width: 750px;
+}
+
+.photo-description{
+  width:60%;
+  /* height: 30px; */
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+  margin: 0px auto;
+}
+
+.learn-more{
+font-weight: bold;
+border-top: 1px dashed gray;
+width: 60%;
+margin: auto;
 }
